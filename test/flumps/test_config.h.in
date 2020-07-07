@@ -1,0 +1,20 @@
+/*
+   Chris Roberts, 12 February 2020
+*/
+
+#ifndef FLUMPS_TEST_FLUMPS_TEST_CONFIG_H_
+#define FLUMPS_TEST_FLUMPS_TEST_CONFIG_H_
+
+#include <string>
+
+namespace flumps {
+
+struct TestConfig {
+  static std::string input_directory() {
+    return "@flumps_test_config_input_directory@";
+  }
+};
+
+}  // namespace flumps
+
+#endif  // FLUMPS_TEST_FLUMPS_TEST_CONFIG_H_

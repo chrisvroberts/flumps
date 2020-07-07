@@ -1,0 +1,14 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+exec_prefix=${prefix}
+libdir=${exec_prefix}/@CMAKE_INSTALL_LIBDIR@
+includedir=${prefix}/@CMAKE_INSTALL_INCLUDEDIR@
+
+Name: @flumps_package_name@
+Description: @flumps_description@
+Version: @flumps_VERSION@
+URL: @flumps_url@
+Requires:
+Conflicts:
+Libs: -L${libdir}
+Libs.private:
+Cflags: -I${includedir}

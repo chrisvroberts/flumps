@@ -1,0 +1,16 @@
+/*
+   Chris Roberts, 12 February 2020
+*/
+
+#ifndef FLUMPS_INCLUDE_FLUMPS_VERSION_H_
+#define FLUMPS_INCLUDE_FLUMPS_VERSION_H_
+
+namespace flumps {
+
+constexpr auto FLUMPS_VERSION_MAJOR = @flumps_VERSION_MAJOR@;
+constexpr auto FLUMPS_VERSION_MINOR = @flumps_VERSION_MINOR@;
+constexpr auto FLUMPS_VERSION_PATCH = @flumps_VERSION_PATCH@;
+
+}  // end namespace
+
+#endif  // FLUMPS_INCLUDE_FLUMPS_VERSION_H_
